@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grand Luxe Hotel | Rooms & Suites</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">The Grand Luxe</div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="rooms.html" class="active">Rooms & Suites</a>
+            <a href="amenities.html">Amenities & Dining</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <a href="rooms.html" class="book-btn">Book Now</a>
+    </header>
+
+    <!-- Rooms Section -->
+    <section style="padding: 60px 8%; background-color: var(--bg-color);">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h2 style="font-family: 'Playfair Display', serif; font-size: 38px; color: var(--primary-color); margin-bottom: 15px;">Luxurious Accommodations</h2>
+            <p style="font-size: 16px; color: #666;">Choose from our selection of exquisitely designed rooms and suites tailored for your comfort.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+            <!-- Room 1 -->
+            <div style="background: var(--white); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Deluxe Room" style="width: 100%; height: 220px; object-fit: cover;">
+                <div style="padding: 25px;">
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 22px; color: var(--primary-color); margin-bottom: 10px;">Deluxe Room</h3>
+                    <p style="font-size: 14px; color: #666; margin-bottom: 20px;">Spacious room with a king-sized bed, city view, and modern amenities for a relaxing stay.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-weight: 600; color: var(--accent-color); font-size: 18px;">$250 / Night</span>
+                        <a href="contact.html" style="background: var(--primary-color); color: var(--white); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 14px;">Book Room</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room 2 -->
+            <div style="background: var(--white); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80" alt="Executive Suite" style="width: 100%; height: 220px; object-fit: cover;">
+                <div style="padding: 25px;">
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 22px; color: var(--primary-color); margin-bottom: 10px;">Executive Suite</h3>
+                    <p style="font-size: 14px; color: #666; margin-bottom: 20px;">Features a separate living area, premium furnishings, and panoramic views of the ocean.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-weight: 600; color: var(--accent-color); font-size: 18px;">$420 / Night</span>
+                        <a href="contact.html" style="background: var(--primary-color); color: var(--white); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 14px;">Book Room</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room 3 -->
+            <div style="background: var(--white); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80" alt="Presidential Penthouse" style="width: 100%; height: 220px; object-fit: cover;">
+                <div style="padding: 25px;">
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 22px; color: var(--primary-color); margin-bottom: 10px;">Presidential Penthouse</h3>
+                    <p style="font-size: 14px; color: #666; margin-bottom: 20px;">Ultimate luxury with private terrace, jacuzzi, personalized butler service, and elite comfort.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-weight: 600; color: var(--accent-color); font-size: 18px;">$850 / Night</span>
+                        <a href="contact.html" style="background: var(--primary-color); color: var(--white); padding: 8px 16px; border-radius: 4px; text-decoration: none; font-size: 14px;">Book Room</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="js/main.js"></script>
+</body>
+</html>
